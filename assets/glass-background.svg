@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="180" fill="none">
+  <defs>
+    <linearGradient id="glass-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#0D1117" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="glass-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#BB9AF7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0.6" />
+    </linearGradient>
+
+    <filter id="glass-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Glass Card Frame -->
+  <rect x="10" y="10" width="1180" height="160" rx="20" fill="url(#glass-bg)" stroke="url(#glass-stroke)" stroke-width="1.5" filter="url(#glass-glow)" />
+
+  <!-- Animated Glowing Particles -->
+  <circle cx="150" cy="50" r="4" fill="#58A6FF" opacity="0.6">
+    <animate attributeName="cy" values="50;35;50" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="1050" cy="120" r="5" fill="#BB9AF7" opacity="0.5">
+    <animate attributeName="cy" values="120;135;120" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Futuristic Connecting Nodes Lines -->
+  <path d="M 150 50 Q 300 110 550 60 T 1050 120" fill="none" stroke="#58A6FF" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="6 6" />
+
+  <!-- Centered Divider Line Accent -->
+  <line x1="300" y1="90" x2="900" y2="90" stroke="url(#glass-stroke)" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+</svg>

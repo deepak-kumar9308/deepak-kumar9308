@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="50%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#090D12" />
+    </linearGradient>
+
+    <!-- Vibrant Tokyo Night Accents -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" />
+      <stop offset="50%" stop-color="#1F6FEB" />
+      <stop offset="100%" stop-color="#7AA2F7" />
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BB9AF7" />
+      <stop offset="100%" stop-color="#7DCFFF" />
+    </linearGradient>
+
+    <linearGradient id="glass-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" />
+      <stop offset="50%" stop-color="#7AA2F7" />
+      <stop offset="100%" stop-color="#C9D1D9" />
+    </linearGradient>
+
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#1F6FEB" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#BB9AF7" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#58A6FF" stroke-opacity="0.05" stroke-width="1" />
+    </pattern>
+
+    <!-- Filters for Glass Glow and Shadows -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 68px;
+      letter-spacing: -1.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+      letter-spacing: 2px;
+      fill: #8B949E;
+    }
+    .badge-text {
+      font-family: 'SF Mono', Consolas, Monaco, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #58A6FF;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      fill: #C9D1D9;
+    }
+
+    /* Floating Animations */
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(1deg); }
+    }
+    @keyframes float-medium {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-18px); }
+    }
+    @keyframes float-fast {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-8px) scale(1.05); }
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(1.1); }
+    }
+    @keyframes shimmer {
+      0% { stop-color: #58A6FF; }
+      50% { stop-color: #BB9AF7; }
+      100% { stop-color: #58A6FF; }
+    }
+
+    .animated-float-1 { animation: float-slow 6s ease-in-out infinite; }
+    .animated-float-2 { animation: float-medium 7s ease-in-out infinite 1s; }
+    .animated-float-3 { animation: float-fast 5s ease-in-out infinite 0.5s; }
+    .pulse-orb-1 { animation: pulse-glow 8s ease-in-out infinite; }
+    .pulse-orb-2 { animation: pulse-glow 10s ease-in-out infinite 3s; }
+  </style>
+
+  <!-- Base Canvas Background -->
+  <rect width="1600" height="500" rx="24" fill="url(#bg-gradient)" />
+
+  <!-- Animated Glowing Background Orbs -->
+  <circle cx="250" cy="120" r="180" fill="#1F6FEB" opacity="0.25" filter="url(#glow)" class="pulse-orb-1" />
+  <circle cx="1350" cy="380" r="220" fill="#7AA2F7" opacity="0.2" filter="url(#glow)" class="pulse-orb-2" />
+  <circle cx="900" cy="80" r="150" fill="#BB9AF7" opacity="0.15" filter="url(#glow)" class="pulse-orb-1" />
+
+  <!-- Geometric Grid Overlay -->
+  <rect width="1600" height="500" rx="24" fill="url(#grid)" />
+
+  <!-- Glowing Accent Lines / Modern Top Border -->
+  <path d="M 0 24 Q 800 -10 1600 24" stroke="url(#accent-cyan)" stroke-width="3" fill="none" opacity="0.7" />
+  <path d="M 100 499 L 1500 499" stroke="url(#border-glow)" stroke-width="2" fill="none" opacity="0.4" />
+
+  <!-- Left Side: Main Brand Card (Glassmorphism Frame) -->
+  <g transform="translate(80, 80)" class="animated-float-1">
+    <!-- Outer Border Glow -->
+    <rect x="-2" y="-2" width="860" height="340" rx="26" fill="url(#border-glow)" />
+    <!-- Glass Main Body -->
+    <rect x="0" y="0" width="856" height="336" rx="24" fill="url(#glass-card-bg)" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Status Badge -->
+    <g transform="translate(50, 45)">
+      <rect width="210" height="34" rx="17" fill="#1F6FEB" fill-opacity="0.15" stroke="#58A6FF" stroke-opacity="0.4" stroke-width="1" />
+      <circle cx="20" cy="17" r="5" fill="#7EE787">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="36" y="22" class="badge-text">AVAILABLE FOR OPPORTUNITIES</text>
+    </g>
+
+    <!-- Main Title: Deepak Kumar -->
+    <text x="50" y="150" fill="url(#text-gradient)" class="title-text" filter="url(#subtle-glow)">Deepak Kumar</text>
+    
+    <!-- Subtitle: Role & Education -->
+    <text x="52" y="200" class="subtitle-text">FULL STACK DEVELOPER <tspan fill="#58A6FF">•</tspan> MCA STUDENT</text>
+
+    <!-- Feature Tech Pills -->
+    <g transform="translate(52, 235)">
+      <!-- Java Badge -->
+      <g transform="translate(0, 0)">
+        <rect width="90" height="36" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1" />
+        <circle cx="20" cy="18" r="6" fill="#F89820" />
+        <text x="34" y="23" class="pill-text">Java</text>
+      </g>
+      <!-- React Badge -->
+      <g transform="translate(102, 0)">
+        <rect width="100" height="36" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1" />
+        <circle cx="20" cy="18" r="6" fill="#61DAFB" />
+        <text x="34" y="23" class="pill-text">React</text>
+      </g>
+      <!-- Node Badge -->
+      <g transform="translate(214, 0)">
+        <rect width="100" height="36" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1" />
+        <circle cx="20" cy="18" r="6" fill="#5FA04E" />
+        <text x="34" y="23" class="pill-text">Node.js</text>
+      </g>
+      <!-- Docker Badge -->
+      <g transform="translate(326, 0)">
+        <rect width="110" height="36" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1" />
+        <circle cx="20" cy="18" r="6" fill="#2496ED" />
+        <text x="34" y="23" class="pill-text">Docker</text>
+      </g>
+      <!-- AWS Badge -->
+      <g transform="translate(448, 0)">
+        <rect width="90" height="36" rx="18" fill="#161B22" stroke="#30363D" stroke-width="1" />
+        <circle cx="20" cy="18" r="6" fill="#FF9900" />
+        <text x="34" y="23" class="pill-text">AWS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side: Interactive Dynamic Floating Tech Showcase -->
+  <g transform="translate(1000, 70)" class="animated-float-2">
+    <!-- Code Editor Card Graphic -->
+    <rect x="0" y="0" width="520" height="350" rx="20" fill="#161B22" fill-opacity="0.8" stroke="#30363D" stroke-width="1.5" filter="url(#subtle-glow)" />
+    
+    <!-- Window Header Controls -->
+    <circle cx="30" cy="28" r="6" fill="#FF5F56" />
+    <circle cx="50" cy="28" r="6" fill="#FFBD2E" />
+    <circle cx="70" cy="28" r="6" fill="#27C93F" />
+    <text x="100" y="32" font-family="'SF Mono', Consolas, monospace" font-size="13" fill="#8B949E">developer.config.ts</text>
+    <line x1="0" y1="52" x2="520" y2="52" stroke="#30363D" stroke-width="1" />
+
+    <!-- Code Snippet Render -->
+    <g transform="translate(30, 85)" font-family="'SF Mono', Monaco, Consolas, monospace" font-size="14">
+      <text y="0"><tspan fill="#FF79C6">const</tspan> <tspan fill="#58A6FF">developer</tspan> = {</text>
+      <text y="30" x="20"><tspan fill="#79C6FF">name</tspan>: <tspan fill="#A5D6FF">'Deepak Kumar'</tspan>,</text>
+      <text y="60" x="20"><tspan fill="#79C6FF">focus</tspan>: <tspan fill="#A5D6FF">'Full Stack Architecture'</tspan>,</text>
+      <text y="90" x="20"><tspan fill="#79C6FF">stack</tspan>: [<tspan fill="#7EE787">'MERN'</tspan>, <tspan fill="#7EE787">'Java Spring'</tspan>, <tspan fill="#7EE787">'AWS'</tspan>],</text>
+      <text y="120" x="20"><tspan fill="#79C6FF">location</tspan>: <tspan fill="#A5D6FF">'India 🇮🇳'</tspan>,</text>
+      <text y="150" x="20"><tspan fill="#79C6FF">passion</tspan>: <tspan fill="#A5D6FF">'Building Scalable Systems'</tspan></text>
+      <text y="180">};</text>
+      <text y="220"><tspan fill="#58A6FF">developer</tspan>.<tspan fill="#BB9AF7">buildImpactfulApps</tspan>(); <tspan fill="#7EE787">⚡</tspan></text>
+    </g>
+
+    <!-- Floating Mini Badges over Code Window -->
+    <g transform="translate(-40, 240)" class="animated-float-3">
+      <rect width="130" height="42" rx="12" fill="#0D1117" stroke="#58A6FF" stroke-width="1.5" />
+      <text x="18" y="26" font-family="'SF Mono', monospace" font-size="13" font-weight="700" fill="#58A6FF">⚡ 100% Code</text>
+    </g>
+    
+    <g transform="translate(410, 160)" class="animated-float-1">
+      <rect width="130" height="42" rx="12" fill="#0D1117" stroke="#BB9AF7" stroke-width="1.5" />
+      <text x="18" y="26" font-family="'SF Mono', monospace" font-size="13" font-weight="700" fill="#BB9AF7">🚀 Scalable</text>
+    </g>
+  </g>
+</svg>
