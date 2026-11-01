@@ -1,714 +1,120 @@
-<div align="center">
-
 # 👋 Hi, I'm Deepak Kumar
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;MERN+Stack+Developer;Java+%7C+Spring+Boot+Developer;MCA+Student;100%25+Passionate+Programmer;Open+Source+Enthusiast;Always+Learning+New+Technologies" />
+**Full Stack Developer | Java Developer | MCA Student**
 
-<br>
-
-<a href="https://github.com/deepak-kumar9308">
-<img src="https://img.shields.io/github/followers/deepak-kumar9308?style=for-the-badge&logo=github&color=1F6FEB"/>
-</a>
-
-<a href="https://github.com/deepak-kumar9308">
-<img src="https://img.shields.io/github/stars/deepak-kumar9308?style=for-the-badge&logo=github&color=F7B500"/>
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=deepak-kumar9308&style=for-the-badge&color=blue"/>
-
-</div>
+[![GitHub followers](https://img.shields.io/github/followers/deepak-kumar9308?style=flat&logo=github)](https://github.com/deepak-kumar9308)
+[![GitHub stars](https://img.shields.io/github/stars/deepak-kumar9308?style=flat&logo=github)](https://github.com/deepak-kumar9308)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/deepak-kumar-58273a264)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?logo=leetcode)](https://leetcode.com/u/deepak_kr_93/)
 
 ---
 
-# 💫 About Me
+## 💫 About Me
 
-<img align="right" width="320" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
+- 🎓 Master of Computer Applications (MCA) student at Chandigarh University.
+- 💻 Interested in Full Stack Development and Software Engineering.
+- ☕ Working with Java, JavaScript and the MERN stack.
+- 🌱 Currently learning Spring Boot, System Design, Docker and AWS.
+- 🧩 Practising Data Structures and Algorithms.
+- 🎯 Looking for opportunities to grow as a Software Engineer.
 
-```java
-class Deepak {
+## 🛠 Tech Stack
 
- String role = "Full Stack Developer";
+**Languages**
 
- String education = "Master of Computer Applications";
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 
- String company = "Looking for Software Engineer Role";
+**Frontend**
 
- String[] languages = {
-   "Java",
-   "JavaScript",
-   "Python",
-   "C++"
- };
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
- String[] frontend = {
-   "React",
-   "HTML",
-   "CSS",
-   "Tailwind",
-   "Bootstrap"
- };
+**Backend**
 
- String[] backend = {
-   "Node.js",
-   "Express.js",
-   "Spring Boot"
- };
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 
- String[] database = {
-   "MongoDB",
-   "MySQL"
- };
+**Databases and Tools**
 
- String[] tools = {
-   "Git",
-   "GitHub",
-   "Docker",
-   "VS Code",
-   "Postman"
- };
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
-}
-```
+## 🚀 Featured Projects
 
-- 🚀 MCA Student
-- 💻 Full Stack Developer
-- 🌱 Learning Spring Boot & System Design
-- ❤️ Love Java & MERN Stack
-- 🔥 Solving DSA Daily
-- 🎯 Goal: Software Engineer @ Product Based Company
+### 🏥 MediPulse – Doctor Appointment System
 
----
+A full-stack appointment management application with patient and doctor workflows.
 
-# 🌐 Connect With Me
+- User authentication and role-based dashboards.
+- Appointment booking, tracking and status management.
+- Admin and doctor appointment management.
+- Email notifications and responsive interface.
 
-<p align="center">
+**Technologies:** React, Node.js, Express.js, MongoDB.
 
-<a href="https://www.linkedin.com/in/deepak-kumar-58273a264">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
+### 🎵 Spotify Clone
 
-<a href="mailto:deepakkr93087@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail"/>
-</a>
+A responsive music-player interface inspired by Spotify.
 
-<a href="https://leetcode.com/u/deepak_kr_93/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode"/>
-</a>
+- Responsive user interface.
+- Music player and audio controls.
+- Playlist-focused layout.
 
-<a href="https://github.com/deepak-kumar9308">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
+**Technologies:** HTML, CSS, JavaScript.
 
-</p>
+### 💼 Portfolio Website
 
----
+A personal portfolio showcasing projects, skills and developer experience.
 
-# 🛠 Tech Stack
+- Responsive layout.
+- Glassmorphism-inspired design.
+- Dark theme and animations.
 
-## 💻 Languages
+[Visit My Portfolio](https://krdeepak-portfolio.netlify.app/)
 
-<p>
+## 📚 Current Learning Goals
 
-<img src="https://skillicons.dev/icons?i=java"/>
+- Spring Boot and REST API Development
+- System Design and Microservices
+- Docker and Kubernetes
+- AWS and Cloud Fundamentals
+- Data Structures and Algorithms
+- Open Source Contributions
 
-<img src="https://skillicons.dev/icons?i=js"/>
+## 🏆 Achievements
 
-<img src="https://skillicons.dev/icons?i=python"/>
+- 🏅 Solved 100+ problems on LeetCode.
+- 🏅 Student Coordinator at CU AI Fest 2026.
+- 🏅 Participated in Smart India Hackathon internal selection.
+- 🏅 Completed AWS Academy Cloud Foundations.
 
-<img src="https://skillicons.dev/icons?i=cpp"/>
+## 📫 Connect With Me
 
-<img src="https://skillicons.dev/icons?i=c"/>
-
-</p>
-
----
-
-## 🎨 Frontend
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=html"/>
-
-<img src="https://skillicons.dev/icons?i=css"/>
-
-<img src="https://skillicons.dev/icons?i=react"/>
-
-<img src="https://skillicons.dev/icons?i=tailwind"/>
-
-<img src="https://skillicons.dev/icons?i=bootstrap"/>
-
-</p>
-
----
-
-## ⚙ Backend
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=nodejs"/>
-
-<img src="https://skillicons.dev/icons?i=express"/>
-
-<img src="https://skillicons.dev/icons?i=spring"/>
-
-</p>
-
----
-
-## 🗄 Database
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=mongodb"/>
-
-<img src="https://skillicons.dev/icons?i=mysql"/>
-
-</p>
-
----
-
-## ☁ Cloud & Tools
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=docker"/>
-
-<img src="https://skillicons.dev/icons?i=git"/>
-
-<img src="https://skillicons.dev/icons?i=github"/>
-
-<img src="https://skillicons.dev/icons?i=vscode"/>
-
-<img src="https://skillicons.dev/icons?i=postman"/>
-
-<img src="https://skillicons.dev/icons?i=linux"/>
-
-</p>
-
----
-
-# 🚀 Current Focus
-
-- 🔥 Spring Boot
-- 🚀 System Design
-- ☁ Docker
-- 📦 Kubernetes
-- ⚡ Microservices
-- 💻 Data Structures
-- 🎯 LeetCode Daily
-- 🌍 Open Source
-
----
-
-# 💼 Featured Project
-
-## 🏥 MediPulse
-
-Modern Doctor Appointment System
-
-### Features
-
-- JWT Authentication
-- Admin Dashboard
-- Doctor Dashboard
-- Patient Dashboard
-- Email Notification
-- Online Booking
-- Appointment Tracking
-- Responsive UI
-
-### Tech Stack
-
-React
-
-Node.js
-
-Express
-
-MongoDB
-
-Spring Boot
-
-MySQL
-
-Docker
-
-GitHub
-
----
-
-## 🎵 Spotify Clone
-
-- Responsive UI
-- Music Player
-- Playlist
-- Audio Controls
-- Modern Design
-- React
-- Tailwind CSS
-
----
-
-## 💼 Portfolio Website
-
-- Modern UI
-- Glassmorphism
-- Responsive
-- Dark Mode
-- Animations
-
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=deepak-kumar9308&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepak-kumar9308&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=deepak-kumar9308&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=deepak-kumar9308&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
-# 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=deepak-kumar9308&theme=tokyonight&row=2&column=4&no-frame=true&margin-w=15"/>
-
-</div>
-
----
-
-# 💻 Coding Profiles
-
-<div align="center">
-
-<a href="https://leetcode.com/u/deepak_kr_93/">
-
-<img src="https://leetcard.jacoblin.cool/deepak_kr_93?theme=dark&font=Poppins&ext=contest"/>
-
-</a>
-
-</div>
-
----
-
-# 🚀 Featured Projects
-
-<table>
-
-<tr>
-
-<td width="50%">
-
-<h3 align="center">🏥 MediPulse</h3>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
-
-<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot"/>
-
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb"/>
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql"/>
-
-</p>
-
-Healthcare Appointment Management System with Admin, Doctor and Patient dashboards, JWT Authentication, Email Notifications and Appointment Scheduling.
-
-<p align="center">
-
-<a href="https://github.com/deepak-kumar9308">
-
-<img src="https://img.shields.io/badge/View%20Repository-black?style=for-the-badge&logo=github"/>
-
-</a>
-
-</p>
-
-</td>
-
-<td width="50%">
-
-<h3 align="center">🎵 Spotify Clone</h3>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
-
-<img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss"/>
-
-</p>
-
-Responsive Spotify inspired Music Streaming UI with Audio Controls, Playlist Management and Smooth Animations.
-
-<p align="center">
-
-<a href="https://github.com/deepak-kumar9308">
-
-<img src="https://img.shields.io/badge/View%20Repository-black?style=for-the-badge&logo=github"/>
-
-</a>
-
-</p>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%">
-
-<h3 align="center">💼 Portfolio Website</h3>
-
-Modern Responsive Portfolio with Glassmorphism UI, Animations and Dark Theme.
-
-</td>
-
-<td width="50%">
-
-<h3 align="center">🎓 Student Management System</h3>
-
-Java + JDBC CRUD Application with Authentication, Reports and MySQL Database.
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# 🏅 Certifications
-
-- ✅ Full Stack Web Development
-- ✅ Java Programming
-- ✅ Data Structures & Algorithms
-- ✅ Spring Boot
-- ✅ React.js
-- ✅ MERN Stack
-- ✅ Git & GitHub
-- ✅ Docker Basics
-
----
-
-# 🏆 Achievements
-
-🏅 100+ LeetCode Problems Solved
-
-🏅 AI FEST Student Coordinator
-
-🏅 MCA Student @ Chandigarh University
-
-🏅 Open Source Enthusiast
-
-🏅 Full Stack Developer
-
-🏅 Java Developer
-
-🏅 MERN Stack Developer
-
----
-
-# 📚 Currently Learning
-
-```text
-✔ Spring Boot
-
-✔ Microservices
-
-✔ Docker
-
-✔ Kubernetes
-
-✔ AWS
-
-✔ Redis
-
-✔ System Design
-
-✔ CI/CD
-
-✔ Design Patterns
-
-✔ Kafka
-```
-
----
-
-# 🎯 2026 Goals
-
-- 🚀 Crack Product Based Company
-- 🔥 500+ LeetCode Problems
-- ☁ Learn AWS
-- 🐳 Master Docker
-- ⚡ Master Kubernetes
-- 📚 Open Source Contributions
-- 💼 Software Engineer Role
-- 🌎 Build SaaS Products
-
----
-
-# ⚡ Fun Fact
-
-```javascript
-while(alive){
-
-Eat();
-
-Code();
-
-Learn();
-
-Repeat();
-
-}
-```
-
----
-
-# 📈 Profile Summary
-
-```text
-💻 Full Stack Developer
-
-☕ Java Developer
-
-⚛ React Developer
-
-🌱 Lifelong Learner
-
-🔥 MERN Stack
-
-📍 India
-
-🎓 MCA Student
-
-🚀 Software Engineer Aspirant
-```
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/deepak-kumar9308/deepak-kumar9308/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
-
-</div>
-
----
-
-# 📊 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-
-```text
-Java              ████████████████░░░░░   42%
-JavaScript        ███████████░░░░░░░░░░   28%
-React             ████████░░░░░░░░░░░░░   12%
-Spring Boot       █████░░░░░░░░░░░░░░░░    8%
-MySQL             ████░░░░░░░░░░░░░░░░░    5%
-Others            ███░░░░░░░░░░░░░░░░░░    5%
-```
-
-<!--END_SECTION:waka-->
-
----
-
-# 📅 Coding Activity
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=deepak-kumar9308&theme=tokyonight"/>
-
-</div>
-
----
-
-# 📊 GitHub Summary Cards
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=deepak-kumar9308&theme=tokyonight" width="32%"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deepak-kumar9308&theme=tokyonight" width="32%"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=deepak-kumar9308&theme=tokyonight" width="32%"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=deepak-kumar9308&theme=tokyonight&utcOffset=5.5" width="50%"/>
-
-</div>
-
----
-
-# ❤️ Support Me
-
-<div align="center">
-
-<a href="https://github.com/deepak-kumar9308">
-
-<img src="https://img.shields.io/badge/Follow%20Me-GitHub-181717?style=for-the-badge&logo=github"/>
-
-</a>
-
-<a href="https://www.linkedin.com/in/deepak-kumar-58273a264">
-
-<img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-
-</a>
-
-<a href="mailto:deepakkr93087@gmail.com">
-
-<img src="https://img.shields.io/badge/Email-Me-EA4335?style=for-the-badge&logo=gmail"/>
-
-</a>
-
-</div>
-
----
-
-# 💡 Random Dev Quote
-
-<div align="center">
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-# 🌟 Visitor Counter
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=deepak-kumar9308&style=for-the-badge&color=0e75b6"/>
-
-<img src="https://img.shields.io/github/followers/deepak-kumar9308?style=for-the-badge"/>
-
-<img src="https://img.shields.io/github/stars/deepak-kumar9308?style=for-the-badge"/>
-
-</div>
-
----
-
-# 🎵 Spotify (Optional)
-
-<div align="center">
-
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
-
-</div>
-
----
-
-# 🧠 Developer Mindset
-
-```java
-while (!success) {
-
-    learn();
-
-    practice();
-
-    buildProjects();
-
-    solveDSA();
-
-    improve();
-
-}
-```
-
----
-
-# 🚀 My Philosophy
-
-> **Code with passion.**
->
-> **Learn continuously.**
->
-> **Build products that solve real-world problems.**
->
-> **Stay humble, stay curious.**
-
----
-
-# 📌 Repository Highlights
-
-- 🚀 Full Stack Projects
-- ☕ Java & Spring Boot
-- ⚛️ React Applications
-- 📦 REST APIs
-- 🗄️ Database Design
-- 🔒 Authentication & Security
-- 🧩 Data Structures & Algorithms
-- ☁️ Cloud & DevOps
-- 📱 Responsive Web Apps
-- 🎯 Clean Code & Best Practices
-
----
-
-# 📫 Let's Connect
-
-<p align="center">
-
-<a href="mailto:deepakkr93087@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail"/>
-</a>
-
-<a href="https://www.linkedin.com/in/deepak-kumar-58273a264">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="https://leetcode.com/u/deepak_kr_93/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode"/>
-</a>
-
-<a href="https://github.com/deepak-kumar9308">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</p>
+- **GitHub:** [deepak-kumar9308](https://github.com/deepak-kumar9308)
+- **LinkedIn:** [Deepak Kumar](https://www.linkedin.com/in/deepak-kumar-58273a264)
+- **LeetCode:** [deepak_kr_93](https://leetcode.com/u/deepak_kr_93/)
+- **Email:** [deepakkr93087@gmail.com](mailto:deepakkr93087@gmail.com)
+- **Portfolio:** [krdeepak-portfolio.netlify.app](https://krdeepak-portfolio.netlify.app/)
 
 ---
 
 <div align="center">
 
-## 🚀 Thanks for visiting my profile!
+**Thanks for visiting my profile!**
 
-### ⭐ If you like my work, consider giving a ⭐ to my repositories.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:7c3aed&height=120&section=footer"/>
+*Code with passion. Learn continuously. Build things that matter.*
 
 </div>
